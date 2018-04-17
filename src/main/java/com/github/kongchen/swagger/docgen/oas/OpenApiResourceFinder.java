@@ -17,7 +17,6 @@ import java.util.TreeSet;
 
 /**
  * Discovers classes that define resources. A class will qualify if any of the following are true:
- * <p>
  * <ul>
  * <li>jax-rs @Path is defined at class and/or method level, together with the http method annotation (@GET, @POST, etc)</li>
  * <li>jax-rs @ApplicationPath is defined at class level</li>
