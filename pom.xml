@@ -74,6 +74,7 @@
         <springframework.version>4.3.7.RELEASE</springframework.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <junit-addons.version>1.4</junit-addons.version>
+        <swagger-core.version>2.0.0</swagger-core.version>
     </properties>
 
     <dependencies>
@@ -185,6 +186,16 @@
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jaxb-annotations</artifactId>
             <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-jaxrs2</artifactId>
+            <version>${swagger-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.11</version>
         </dependency>
 
         <dependency>
