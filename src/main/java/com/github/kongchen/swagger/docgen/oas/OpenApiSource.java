@@ -19,7 +19,7 @@ public class OpenApiSource {
     private String openApiDirectory;
 
     @Parameter
-    private List<String> outputFormats;
+    private String outputFormats;
 
     @Parameter
     private String discoverClasses;
@@ -56,11 +56,11 @@ public class OpenApiSource {
         this.openApiDirectory = openApiDirectory;
     }
 
-    public List<String> getOutputFormats() {
+    public String getOutputFormats() {
         return outputFormats;
     }
 
-    public void setOutputFormats(List<String> outputFormats) {
+    public void setOutputFormats(String outputFormats) {
         this.outputFormats = outputFormats;
     }
 

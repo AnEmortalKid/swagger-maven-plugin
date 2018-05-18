@@ -90,7 +90,10 @@ public class OpenApiSpecDocumentMojo extends AbstractMojo {
 
         List<String> outputFormats = new LinkedList<String>();
         if (openApiSource.getOutputFormats() != null) {
-            outputFormats.addAll(openApiSource.getOutputFormats());
+          for(String format : openApiSource.getOutputFormats().split(","))
+          {
+            outputFormats.add(format);
+          }
         } else {
             outputFormats.add("JSON");
         }

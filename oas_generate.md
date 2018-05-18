@@ -112,7 +112,7 @@ Optionally, consumers can define all the classes with the `resourceClasses` elem
           <resourcePackages>
             <resourcePackage>io.swagger.sample.petstore.example</resourcePackage>
             <resourcePackage>io.swagger.sample.petstore.operation</resourcePackage>
-          </resourceClasses>
+          </resourcePackages>
           <openApiDirectory>${project.basedir}/openapi/</openApiDirectory>
           <openApiFileName>petstore</openApiFileName>
           <outputFormats>yaml,json<outputFormats>
